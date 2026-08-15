@@ -1,0 +1,7 @@
+{
+  "versionCode": 3,
+  "versionName": "0.2.1",
+  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.1/junshi-v0.2.1.apk",
+  "changelog": "- 修复输入栏与输入法间隙过大\n- 放开输出长度限制（截断时保留内容）\n- MIMO 官方端点支持\n- 应用内更新功能",
+  "minSupported": 1
+}
