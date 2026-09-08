@@ -1,7 +1,11 @@
 {
-  "versionCode": 5,
-  "versionName": "0.2.3",
-  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.3/app-debug.apk",
-  "changelog": "- 修复输入栏与输入法间隙过大\n- 放开输出长度限制（截断时保留内容）\n- MIMO 官方端点支持\n- 应用内更新功能（兼容 GitHub Contents API）",
+  "versionCode": 6,
+  "versionName": "0.2.4",
+  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.4/app-debug.apk",
+  "mirrors": [
+    "https://gh-proxy.com/https://github.com/willewu/junshi-releases/releases/download/v0.2.4/app-debug.apk"
+  ],
+  "sha256": "beafd9e4f26f820e35b93c5120670e5b8c7510c6fe75693cd3873eb45b734c60",
+  "changelog": "- 回复更完整：输出被长度上限截断时自动续写，无需手动追问「继续」\n- max_tokens 提升到 8192；MIMO 关闭思考，把 token 预算留给正文\n- 在线更新对齐拾光日记：多镜像备用源 + 慢源自动切换 + SHA-256 校验 + 实时下载速度\n- 新增专属应用图标（狗头 + 羽扇）",
   "minSupported": 1
 }
