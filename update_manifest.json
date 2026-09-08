@@ -1,11 +1,11 @@
 {
-  "versionCode": 6,
-  "versionName": "0.2.4",
-  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.4/app-debug.apk",
+  "versionCode": 7,
+  "versionName": "0.2.5",
+  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.5/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/junshi-releases/releases/download/v0.2.4/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/junshi-releases/releases/download/v0.2.5/app-debug.apk"
   ],
-  "sha256": "beafd9e4f26f820e35b93c5120670e5b8c7510c6fe75693cd3873eb45b734c60",
-  "changelog": "- 回复更完整：输出被长度上限截断时自动续写，无需手动追问「继续」\n- max_tokens 提升到 8192；MIMO 关闭思考，把 token 预算留给正文\n- 在线更新对齐拾光日记：多镜像备用源 + 慢源自动切换 + SHA-256 校验 + 实时下载速度\n- 新增专属应用图标（狗头 + 羽扇）",
+  "sha256": "168bda1eaa73690299ef7377db9404b8d1cc1faa6f83eb435f6b0b4c17322939",
+  "changelog": "- 对话历史可续接：对话页顶栏历史入口或回顾页详情「继续对话」，切换到之前的对话接着聊\n- 「会话历史」更名为「对话历史」\n- 对话页新增「＋ 新对话」开启全新会话",
   "minSupported": 1
 }
