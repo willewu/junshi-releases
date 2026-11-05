@@ -1,11 +1,11 @@
 {
-  "versionCode": 8,
-  "versionName": "0.2.6",
-  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.6/app-debug.apk",
+  "versionCode": 9,
+  "versionName": "0.2.7",
+  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.7/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/junshi-releases/releases/download/v0.2.6/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/junshi-releases/releases/download/v0.2.7/app-debug.apk"
   ],
-  "sha256": "369be3b1b1d8d821d0a5b83de696ef99be51ee9ac8d3b0abcdb6ac8a9f357672",
-  "changelog": "- 去掉底部「设置」标签，改为回顾页顶栏齿轮图标进入全屏设置页\n- 应用更新界面对齐拾光日记：线性进度条 + 百分比 + 实时速度 + 慢源自动切换提示 + 可折叠修改更新地址\n- 底部导航精简为 对话/档案/回顾 三项",
+  "sha256": "2b1541fc417416758b265e11df895719139c3ad62d8e33f31e160485219ca9a2",
+  "changelog": "- 修复横屏、分屏及大字体下弹窗内容可能超出屏幕的问题\n- 材料确认、演练场景、档案关联、对话历史、图片处理和会话详情弹窗支持动态高度与滚动\n- 聊天材料编辑框随屏幕高度调整，底部操作按钮保持可用",
   "minSupported": 1
 }
