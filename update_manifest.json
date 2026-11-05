@@ -1,11 +1,11 @@
 {
-  "versionCode": 9,
-  "versionName": "0.2.7",
-  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.7/app-debug.apk",
+  "versionCode": 10,
+  "versionName": "0.2.8",
+  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.8/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/junshi-releases/releases/download/v0.2.7/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/junshi-releases/releases/download/v0.2.8/app-debug.apk"
   ],
-  "sha256": "2b1541fc417416758b265e11df895719139c3ad62d8e33f31e160485219ca9a2",
-  "changelog": "- 修复横屏、分屏及大字体下弹窗内容可能超出屏幕的问题\n- 材料确认、演练场景、档案关联、对话历史、图片处理和会话详情弹窗支持动态高度与滚动\n- 聊天材料编辑框随屏幕高度调整，底部操作按钮保持可用",
+  "sha256": "71191b42f3afd54446e8e0064472e696387356b98dbe84d9b8e9ffe3a6cd67f9",
+  "changelog": "- 横竖屏切换后保留当前标签、设置页、聊天输入和弹窗状态\n- 档案与设置表单未保存草稿在旋转后自动恢复\n- OCR 材料、材料编辑草稿和图片附件通过 ViewModel 保留，避免大型数据写入 Bundle\n- 回顾页已打开的会话详情在旋转后自动重新加载",
   "minSupported": 1
 }
