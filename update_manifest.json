@@ -1,11 +1,11 @@
 {
-  "versionCode": 10,
-  "versionName": "0.2.8",
-  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.8/app-debug.apk",
+  "versionCode": 11,
+  "versionName": "0.2.9",
+  "apkUrl": "https://github.com/willewu/junshi-releases/releases/download/v0.2.9/app-debug.apk",
   "mirrors": [
-    "https://gh-proxy.com/https://github.com/willewu/junshi-releases/releases/download/v0.2.8/app-debug.apk"
+    "https://gh-proxy.com/https://github.com/willewu/junshi-releases/releases/download/v0.2.9/app-debug.apk"
   ],
-  "sha256": "71191b42f3afd54446e8e0064472e696387356b98dbe84d9b8e9ffe3a6cd67f9",
-  "changelog": "- 横竖屏切换后保留当前标签、设置页、聊天输入和弹窗状态\n- 档案与设置表单未保存草稿在旋转后自动恢复\n- OCR 材料、材料编辑草稿和图片附件通过 ViewModel 保留，避免大型数据写入 Bundle\n- 回顾页已打开的会话详情在旋转后自动重新加载",
+  "sha256": "491ac12e2581fd5ebb2de6ff7e2f2e9c339ab7d7ae1e9e6806227e19d8c09cf6",
+  "changelog": "- 关系档案完成一期语义修正：MBTI 改为沟通风格，评分改为关系温度，优势/短板标签明确\n- 新增 extJson 富结构档案，支持基本档案、画像、兴趣信号、行动计划和里程碑\n- Room 数据库无损迁移至 v2，档案可编辑并保留历史数据\n- 档案导入导出兼容旧版 9 字段 JSON，富结构自动注入军师 Prompt",
   "minSupported": 1
 }
